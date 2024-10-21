@@ -239,12 +239,14 @@ require('lazy').setup({
       },
     },
   },
+  {'rstacruz/vim-closer'},
   require 'kickstart.plugins.trouble',
   require 'kickstart.plugins.fuzzyfinder',
   require 'kickstart.plugins.lsp',
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.autocomplete',
   require 'kickstart.plugins.harpoon',
+  require 'kickstart.plugins.vimtex',
 
   { -- You can easily change to a different colorscheme.
     -- Change the name of the colorscheme plugin below, and then
@@ -342,7 +344,6 @@ require('lazy').setup({
   -- require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
-  require 'kickstart.plugins.vimtex',
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   {
     import = 'custom.plugins',
