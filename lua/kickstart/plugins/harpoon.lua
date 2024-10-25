@@ -19,8 +19,8 @@ return {
       vim.keymap.set("n", "<leader>hf", function() harpoon:list():select(4) end, {desc = 'Focus file-4'})
 
       -- Toggle previous & next buffers stored within Harpoon list
-      vim.keymap.set("n", "<C-K>", function() harpoon:list():prev() end, {desc = 'Harpoon: select previous harpoon'})
-      vim.keymap.set("n", "<C-J>", function() harpoon:list():next() end, {desc = 'Harpoon: select next harpoon'})
+      vim.keymap.set("n", "<S-h>", function() harpoon:list():prev() end, {desc = 'Harpoon: select previous harpoon'})
+      vim.keymap.set("n", "<S-l>", function() harpoon:list():next() end, {desc = 'Harpoon: select next harpoon'})
 
     end,
   },
